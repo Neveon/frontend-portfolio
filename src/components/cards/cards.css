@@ -1,0 +1,55 @@
+.card-deck {
+  padding: 10px;
+}
+
+.card {
+  width: 600px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 20px black;
+}
+
+.card {
+  text-align: center;
+}
+
+.bjlink a {
+  margin: 10px;
+}
+
+.icons {
+  padding-top: 10px;
+}
+
+.icons i,
+.icon img {
+  padding: 10px;
+}
+
+.modal-dialog {
+  max-width: 60vw !important;
+}
+
+.react-youtube {
+  width: 50vw;
+}
+
+/* Responsive */
+@media only screen and (max-width: 625px) {
+  .card {
+    width: 300px;
+  }
+
+  .modal-dialog {
+    max-width: 500px !important;
+  }
+
+  .react-youtube {
+    width: 250px;
+  }
+
+  .modal-footer .btn {
+    font-size: 0.75rem;
+  }
+}

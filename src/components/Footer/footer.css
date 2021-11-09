@@ -1,0 +1,19 @@
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#footer-name {
+  color: white;
+}
+
+.footer-links a:hover {
+  color: #ff254f;
+}
+
+.footer {
+  background-color: black;
+}
